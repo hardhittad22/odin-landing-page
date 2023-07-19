@@ -1,0 +1,65 @@
+body {
+    font-size: 18px;
+
+}
+/*should place something here for footer */
+
+.header,
+.footer,
+.block-two {
+    color: #E5E7EB;
+    background-color: #1f2397;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+.header-links {
+    color: #E5E7EB;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 32px;
+}
+
+button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: 6px #E5E7EB;
+    border-radius: 6px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #E5E7EB;
+}
+
+.hero-secondary {
+    font: 18px;
+    color: #E5E7EB;
+}
+
+img {
+    border: 8px #3882F6;
+    border-radius: 8px;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.block-four{
+    font-size: 36px;
+    background-color: #E5E7EB;
+    font-style: italic;
+    color: #1f2397;
+
+}
+
+.block-five {
+    color: #f9faf9;
+    background-color: #3882F6;
+}
