@@ -1,8 +1,11 @@
 body {
     font-size: 18px;
-
+    /*added to place footer at bottom of page*/
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
 }
-/*should place something here for footer */
 
 .header,
 .footer,
@@ -11,55 +14,133 @@ body {
     background-color: #1f2397;
 }
 
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
 .header-logo {
     font-size: 24px;
+    flex-grow: 1;
+    margin-left: 125.016px;
 }
 
 .header-links {
-    color: #E5E7EB;
+    margin-right: 125.016px;
+}
+
+a {
+    font: 18px;
     text-decoration: none;
-    list-style-type: none;
-    gap: 32px;
-}
-
-button {
     color: #E5E7EB;
-    background-color: #3882F6;
-    border: 6px #E5E7EB;
-    border-radius: 6px;
+    gap: 48px;
 }
 
-.hero-main {
+.block-two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1 1 0;
+}
+
+section {
+    margin: auto;
+    flex-basis: 500px;
+}
+
+h2 {
     font-size: 48px;
     font-weight: bolder;
     color: #E5E7EB;
+    margin: 0;
 }
 
-.hero-secondary {
-    font: 18px;
+p {
     color: #E5E7EB;
+    margin: 4px 0px 4px 0px;
 }
 
-img {
-    border: 8px #3882F6;
+button {
+    font-weight: bolder;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    /* white outer border are not be shown for some reason */
+    border: 8px #E5E7EB;
+    border-radius: 6px;
+    /* added padding */
+    padding: 6px 24px;
+}
+
+.initial-photo {
+    background-color: rgb(131, 130, 130);
+    padding: 75px 100px;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+/* centered photos and placeholder images */
+.small-pics {
+    border: 4px solid #3882F6;
     border-radius: 8px;
+    width: 150px;
 }
 
 .info {
     font-size: 36px;
     font-weight: bolder;
     text-align: center;
+    margin: 24px auto;
 }
 
-.block-four{
-    font-size: 36px;
+.block-three {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+figure,
+figcaption {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}
+
+.block-four {
+    font-family: sans-serif;
+    font-size: 24px;
     background-color: #E5E7EB;
     font-style: italic;
-    color: #1f2397;
+    color: rgb(87, 87, 87);
+    display: flex;
+    flex-direction: column;
+}
 
+.container {
+    margin: 24px auto;
+    width: 900px;
+}
+
+.signature {
+    text-align: end;
 }
 
 .block-five {
     color: #f9faf9;
     background-color: #3882F6;
+    display: flex;
+    padding: 8px;
+    flex-direction: row;
+    margin: 24px auto;
+    border-radius: 8px;
+    width: 600px;
+}
+
+.container-two {
+display: flex;
+justify-content: center;
+}
+
+/*added to place footer at bottom of page*/
+.footer {
+    margin-top: auto;
+    text-align: center;
 }
